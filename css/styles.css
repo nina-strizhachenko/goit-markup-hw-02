@@ -10,6 +10,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--second-text-color);
+  background-color: var(--hero-color);
 }
 
 .list {
@@ -80,7 +82,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.header-logo-second {
+.logo-second {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
