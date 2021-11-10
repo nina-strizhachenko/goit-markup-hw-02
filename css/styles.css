@@ -13,11 +13,9 @@ body {
   color: var(--second-text-color);
   background-color: var(--hero-color);
 }
-
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }
@@ -33,7 +31,6 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
 /* ---------КНОПКИ------- */
 .primary-btn {
   font-family: inherit;
@@ -47,12 +44,10 @@ body {
   color: var(--hero-color);
   background-color: var(--accent-color);
 }
-
 .primary-btn:focus,
 .primary-btn:hover {
   background-color: var(--accent-color);
 }
-
 .secondary-btn {
   cursor: pointer;
   font-family: inherit;
@@ -72,24 +67,22 @@ body {
   background-color: var(--accent-color);
 }
 /* -------HEADER------- */
-
-.logo-first {
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logo-web {
   color: var(--accent-color);
 }
-.logo-second {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.logo-black {
   color: var(--logo-second-color);
+}
+.logo-white {
+  color: var(--hero-color);
 }
 .nav-link {
   font-weight: 500;
@@ -98,7 +91,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -106,8 +98,9 @@ body {
 .current {
   color: var(--accent-color);
 }
-
 .contakt-link {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,9 +111,7 @@ body {
 .contakt-link:focus {
   color: var(--accent-color);
 }
-
 /* ------HERO----- */
-
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -131,9 +122,7 @@ body {
   color: var(--hero-color);
   background-color: #2f303a;
 }
-
 /* --------особенности--------- */
-
 .special-title {
   font-weight: 700;
   font-size: 14px;
@@ -167,7 +156,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
@@ -185,26 +173,6 @@ body {
   color: var(--second-text-color);
 }
 /* ----------ПОДВАЛ---------- */
-
-.logo-first {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-.logo-second {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
 .map-link {
   font-style: normal;
   font-weight: normal;
@@ -220,23 +188,19 @@ body {
 .bgr {
   background-color: var(--footer-bgr-color);
 }
-
 .contact-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer--link-color);
 }
-
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
-
 /* ---------Портфолио------- */
-
 .portfolio-title {
   font-style: normal;
   font-weight: 500;
